@@ -6,10 +6,10 @@ if HEROKU:
     from dotenv import load_dotenv
     
     load_dotenv()  # take environment variables from .env.
-    API_ID = int(environ["API_ID"])
-    API_HASH = environ["API_HASH"]
+    API_ID = 4040599
+    API_HASH = ce338573ca4a25aa36c9b505465e1c96
     SESSION_STRING = environ["SESSION_STRING"]  # Check Readme for session
-    ARQ_API_KEY = environ["ARQ_API_KEY"]
+    ARQ_API_KEY = MGDNPH-GZYATI-ADQRCS-OZNZKA-ARQ
 
 # NOTE Fill this if you are not deploying on heroku.
 if not HEROKU:
